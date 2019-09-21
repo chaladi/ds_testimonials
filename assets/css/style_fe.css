@@ -1,0 +1,25 @@
+.ds_image_person img {
+    border-radius: 100%;
+}
+.ds_team_thumbnailblock li{
+	list-style: none;
+	opacity: 0.4;
+}
+.ds_team_thumbnailblock li.uk-active{
+	opacity: 1;
+}
+
+
+.ds_team_thumbnailblock p, .ds_team_thumbnailblock h4 {
+    text-align: left;
+}
+
+@media  screen and (max-width:480px){
+    .ds_team_slider_person_info h4{
+      font-size: 12px;
+    }
+
+    .ds_team_slider_person_info p{
+      font-size: 10;
+    }
+}
